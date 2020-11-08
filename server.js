@@ -12,6 +12,7 @@ server.get('/', (req, res) => {
     res.send(`
     <h1>Welcome to Sam G's Web API Sprint!</h1>
     <h2>Please use postman/insomnia to test.</h2>
+    <a href='https://sg-web-node-api-sprint-1.herokuapp.com/'>View via Heroku!</a>
     `)
 })
 
