@@ -66,16 +66,18 @@ Node.js expands a developers capabilities with JavaScript (JS). It allows us to 
 Node.js is also useful because of its abilties. One is the ability to use JS on the server which makes it easier to share code between web services and clients since they both use JS. Node.js is also asynchronous and has access to vast library of npm modules.
 
 1. Understand and explain the use of Middleware?
-Middleware increases the functionality of Express. We use this to save time writing out code repitively, and can use or write custom middleware.
+Middleware increases the functionality of Express. This can be built-in with Express, from a third party, or functions that we write ourselves (custom middleware). We use this to save time writing out code repitively.
 
 1. The basic principles of the REST architectural style.
 The basic principals of the REST architectural style are (1) everything is a resource, (2) each of these resources can be accessed by a unique URL, (3) these resources can have many urls, (4) requests made to these resources do not have to be in any order and are independent of one another, and (5) these resources are retrieved or modified via HTTP methods via CRUD requests.
 
 1. Understand and explain the use of Express Routers.
-Express Routers are used to increase the organization and readability of our code. It allows up to organized server code and files depending on the url being called.
+Express Routers are used to increase the organization and readability of our code. It allows us to organize endpoints into seperate router files depending on the root url being called. The endpoints matching the root url are bound to them.
 
 1. Describe tooling used to manually test the correctness of an API.
-Tooling that is used to manually test the correctness of an API is using applciations such as Postman to test requests. We also can use validation functions as middleware to check data that is being sent in a request.
+The tooling that is used to manually test the correctness of an API can be using applciations such as Postman. This application can be used to test data being passed/requested by CRUD endoints. 
+
+---
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
