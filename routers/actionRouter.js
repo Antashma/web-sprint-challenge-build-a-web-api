@@ -42,7 +42,7 @@ router.post('/:projectID' , (req, res) => {
 router.put('/:actionID' , (req, res) => {
     dbActions.update(req.params.actionID, req.body)
         .then(updatedAction => {
-            res.status(201).json(updatedAction)
+            res.status(200).json(updatedAction)
         })
         .catch(err => {
             res.status(500).json({

@@ -55,7 +55,7 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
     dbProject.update(req.params.id, req.body)
         .then(updatedProject => {
-            res.status(201).json(updatedProject)    
+            res.status(200).json(updatedProject)    
         })
         .catch(err => {
             res.status(500).json({
