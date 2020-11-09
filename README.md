@@ -61,10 +61,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+Node.js expands a developers capabilities with JavaScript (JS). It allows us to code software that can normally not be written with JS. It also lets us write sever code with JS using JSON (JavaScript Object Notation). 
+
+Node.js is also useful because of its abilties. One is the ability to use JS on the server which makes it easier to share code between web services and clients since they both use JS. Node.js is also asynchronous and has access to vast library of npm modules.
+
 1. Understand and explain the use of Middleware?
+Middleware increases the functionality of Express. We use this to save time writing out code repitively, and can use or write custom middleware.
+
 1. The basic principles of the REST architectural style.
+The basic principals of the REST architectural style are (1) everything is a resource, (2) each of these resources can be accessed by a unique URL, (3) these resources can have many urls, (4) requests made to these resources do not have to be in any order and are independent of one another, and (5) these resources are retrieved or modified via HTTP methods via CRUD requests.
+
 1. Understand and explain the use of Express Routers.
+Express Routers are used to increase the organization and readability of our code. It allows up to organized server code and files depending on the url being called.
+
 1. Describe tooling used to manually test the correctness of an API.
+Tooling that is used to manually test the correctness of an API is using applciations such as Postman to test requests. We also can use validation functions as middleware to check data that is being sent in a request.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
